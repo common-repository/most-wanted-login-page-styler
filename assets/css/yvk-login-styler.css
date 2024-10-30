@@ -1,0 +1,94 @@
+ body .yvk-login-styler-bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+#login {
+    margin: auto;
+    padding: 20px;
+    max-width: 320px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 15px -3px #000000;
+    border-radius: 8px;
+    transform: translate(0, 30%);
+}
+
+#login #backtoblog {
+    display: none;
+}
+
+body.login  {
+    background: #fff;
+}
+
+#login #loginform {
+    border: none;
+    box-shadow: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: transparent;
+}
+
+.login h1 a {
+    width: 100%;
+    background-size: contain;
+}
+
+#login label,
+#login input {
+    color: #212121;
+    border-color: #212121;
+    font-size: 15px;
+}
+
+#login input:focus,
+#login button:focus {
+    box-shadow: 0 0 0 1px #212121;
+    border-color: #212121;
+}
+
+#login .dashicons-visibility,
+#login .dashicons-hidden {
+    color: #212121;
+}
+
+#login .submit .button-primary{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#login form .button-primary{
+    background: #212121;
+    color: #fff;
+    border-color: #212121;
+}
+
+#login form .button-large {
+    font-size: 15px;
+}
+
+#login #nav {
+    text-align: center;
+    padding: 0;
+}
+
+#login .privacy-policy-page-link {
+    display: none;
+}
+
+.login #login_error, .login .message, .login .success {
+    border-color: #d7373b;
+    box-shadow: 2px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+#loginform .input + label {
+    color: red !important;
+}
+
